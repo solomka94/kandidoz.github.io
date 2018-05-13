@@ -1,0 +1,294 @@
+@media screen and (max-width: 1200px) {
+  body .information .inf .tab .btn-default {
+    width: 56%; }
+  body .information .inf .btn-default {
+    width: 43%; }
+  body .information .sprav .navbar {
+    width: 100%; }
+    body .information .sprav .navbar li {
+      padding: 24px 0 14px 30px; }
+      body .information .sprav .navbar li:first-child {
+        padding: 0px 0 22px 0;
+        text-align: center; }
+      body .information .sprav .navbar li:last-child {
+        padding: 24px 0 22px 30px; }
+    body .information .sprav .navbar .submenu li {
+      padding: 10px 0 10px 50px; }
+      body .information .sprav .navbar .submenu li:first-child {
+        text-align: left; } }
+@media screen and (max-width: 992px) {
+  body .header-top {
+    height: auto; }
+    body .header-top .header-inf {
+      text-align: center; }
+      body .header-top .header-inf p {
+        margin: 15px 0 0 0; }
+      body .header-top .header-inf .btn-default {
+        margin: 10px 0 15px 8px; }
+  body .header .nav {
+    display: none; }
+  body .header .hamburger {
+    display: block;
+    background: none;
+    line-height: 72px;
+    padding: 10px 15px 0px 15px;
+    color: #1da8d6;
+    border: 0;
+    font-size: 3.8em;
+    font-weight: normal;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+    float: right;
+    transition: background-color 0.5s ease; }
+    body .header .hamburger:hover {
+      color: #f2503b; }
+  body .header .cross {
+    display: block;
+    position: fixed;
+    background: none;
+    padding: 5px 15px 0px 15px;
+    color: #1da8d6;
+    border: 0;
+    line-height: 72px;
+    font-weight: normal;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+    float: right;
+    font-size: 4.8em;
+    top: 0px;
+    right: 14px;
+    transition: background-color 0.5s ease; }
+    body .header .cross:hover {
+      color: #f2503b; }
+  body .menu ul {
+    font-size: 20px; }
+    body .menu ul li {
+      padding: 30px 0 25px 0; }
+  body .consultation .cons-inf h1 {
+    text-align: center; }
+  body .consultation .cons-form form {
+    text-align: center; }
+    body .consultation .cons-form form .txt {
+      width: 55%; }
+    body .consultation .cons-form form .txtarea {
+      width: 70%; }
+  body .consultation-post .cons-form form {
+    text-align: center; }
+    body .consultation-post .cons-form form .txt {
+      width: 70%; }
+    body .consultation-post .cons-form form .txtarea {
+      width: 90%; }
+  body .information .sprav .navbar {
+    width: 55%;
+    margin: 49px auto 0 auto; }
+    body .information .sprav .navbar li .active:before {
+      left: -18px; }
+  body .information .sprav .banner_altravita_240_two {
+    display: none; }
+  body .information .inf h2 {
+    text-align: center; }
+  body .information .inf .tab {
+    width: 45%;
+    margin: 0 auto 47px auto; }
+  body .information .inf-post .post-img {
+    width: 70%;
+    margin: 0 auto 30px auto;
+    display: block; }
+  body .information .inf-post .post-comments form.comment-form .form-content .input-captcha {
+    width: 85%;
+    margin: 0 0 50px 0; }
+  body .information .inf-post .post-comments form.comment-form .form-content .input-wrap {
+    text-align: center; }
+    body .information .inf-post .post-comments form.comment-form .form-content .input-wrap input {
+      width: 70%; }
+    body .information .inf-post .post-comments form.comment-form .form-content .input-wrap img {
+      width: 40.2%;
+      top: -25px;
+      left: 63px; }
+    body .information .inf-post .post-comments form.comment-form .form-content .input-wrap textarea {
+      width: 80%; }
+  body .information .inf-posts h1 {
+    margin: 50px 0 50px 0;
+    text-align: center; }
+  body .information .inf-posts .crumbs-list {
+    text-align: center; }
+  body .information .inf-posts .tab {
+    margin: 0 auto 30px auto;
+    width: 50%; }
+  body .kandidoz h2 {
+    margin: 50px 0 42px 0; }
+  body #modal_form .txt {
+    width: 100%;
+    float: none; }
+    body #modal_form .txt:first-child {
+      margin: 0 0 25px 0;
+      float: none; }
+  body #modal_form .btn-default {
+    width: 56.3%; } }
+@media screen and (max-width: 767px) {
+  body .header .logo {
+    width: 206px;
+    height: 34px;
+    background: url("../images/logo-m.png") no-repeat; }
+  body .consultation .cons-inf h1 {
+    font-size: 30px;
+    text-align: center; }
+  body .consultation .cons-form h2 {
+    font-size: 30px; }
+  body .consultation .cons-form form .txt {
+    width: 70%; }
+  body .consultation .cons-form form .txtarea {
+    width: 90%; }
+  body .consultation-post .cons-form form .btn-default {
+    width: 55%; }
+  body .information .sprav .navbar {
+    width: 70%;
+    padding: 20px 0 20px 0; }
+    body .information .sprav .navbar li {
+      padding: 15px 0 10px 30px; }
+      body .information .sprav .navbar li h2 {
+        font-size: 24px; }
+      body .information .sprav .navbar li a {
+        font-size: 12px; }
+      body .information .sprav .navbar li:first-child {
+        padding: 0px 0 18px 0; }
+      body .information .sprav .navbar li:last-child {
+        padding: 15px 0 10px 30px; }
+      body .information .sprav .navbar li .active:before {
+        left: -18px; }
+    body .information .sprav .navbar .submenu li {
+      padding: 10px 0 10px 50px; }
+      body .information .sprav .navbar .submenu li:first-child {
+        text-align: left; }
+      body .information .sprav .navbar .submenu li a {
+        font-size: 11px; }
+  body .information .inf h2 {
+    font-size: 26px; }
+  body .information .inf .tab {
+    width: 75%;
+    margin: 0 auto 47px auto; }
+  body .information .inf .btn-default {
+    width: 70%; }
+  body .information .inf-post .post-img {
+    width: 80%;
+    margin: 0 auto 30px auto;
+    display: block; }
+  body .information .inf-post .table-wrap table {
+    width: 100%; }
+    body .information .inf-post .table-wrap table tr th {
+      padding: 10px 0 10px 20px; }
+      body .information .inf-post .table-wrap table tr th:first-child {
+        padding: 10px 0 10px 15px;
+        width: 9.4%; }
+    body .information .inf-post .table-wrap table tr td {
+      padding: 10px 0 10px 15px; }
+      body .information .inf-post .table-wrap table tr td:first-child {
+        padding: 10px 0 10px 15px;
+        width: 9.4%; }
+  body .information .inf-post .post-comments form.comment-form .form-footer .button-wrap button {
+    width: 70%; }
+  body .information .inf-posts h1 {
+    margin: 50px 0 20px 0;
+    text-align: center;
+    font-size: 20px; }
+  body .information .inf-posts .tab {
+    width: 70%; }
+    body .information .inf-posts .tab .btn-default {
+      width: 54%;
+      padding: 10px 40px 10px 40px;
+      font-size: 12px; }
+    body .information .inf-posts .tab p {
+      font-size: 12px; }
+  body .kandidoz h2 {
+    font-size: 26px;
+    margin: 50px 0 42px 0; }
+  body #modal_form {
+    width: 75%; }
+    body #modal_form h2 {
+      font-size: 30px;
+      margin: 20px 0 20px 0; }
+    body #modal_form .txt {
+      margin: 0 0 15px 0; }
+      body #modal_form .txt:first-child {
+        margin: 0 0 15px 0; }
+    body #modal_form textarea {
+      height: 110px;
+      margin: 0 0 15px 0; }
+    body #modal_form p {
+      margin: 0 0 15px 0; }
+    body #modal_form .btn-default {
+      width: 62.3%;
+      margin: 0 auto 25px auto; } }
+@media screen and (max-width: 400px) {
+  body .header .hamburger {
+    padding: 10px 0px 0px 15px;
+    font-size: 2.8em; }
+  body .consultation .cons-inf h1 {
+    font-size: 25px; }
+  body .consultation .cons-form h2 {
+    font-size: 23px; }
+  body .consultation .cons-form form .txt {
+    width: 80%; }
+  body .consultation .cons-form form .txtarea {
+    width: 100%; }
+  body .consultation .cons-form .btn-default {
+    width: 60%; }
+  body .information .sprav .navbar {
+    width: 90%;
+    padding: 15px 0 15px 0; }
+    body .information .sprav .navbar li {
+      padding: 15px 0 10px 30px; }
+      body .information .sprav .navbar li h2 {
+        font-size: 24px; }
+      body .information .sprav .navbar li a {
+        font-size: 12px; }
+      body .information .sprav .navbar li:first-child {
+        padding: 0px 0 18px 0; }
+      body .information .sprav .navbar li:last-child {
+        padding: 15px 0 10px 30px; }
+      body .information .sprav .navbar li .active:before {
+        left: -18px; }
+    body .information .sprav .navbar .submenu li {
+      padding: 10px 0 10px 50px; }
+      body .information .sprav .navbar .submenu li:first-child {
+        text-align: left; }
+      body .information .sprav .navbar .submenu li a {
+        font-size: 11px; }
+  body .information .inf h2 {
+    font-size: 26px; }
+  body .information .inf .tab {
+    width: 75%;
+    margin: 0 auto 47px auto; }
+    body .information .inf .tab .btn-default {
+      width: 75%; }
+  body .information .inf .btn-default {
+    width: 92%; }
+  body .information .crumbs-list .crumbs-ul li {
+    margin-right: 0;
+    font-size: 11px; }
+    body .information .crumbs-list .crumbs-ul li a {
+      padding-right: 7px;
+      font-size: 11px; }
+  body .information .inf-post h1 {
+    font-size: 30px;
+    margin: 45px 0 45px 0;
+    text-align: center; }
+  body .information .inf-posts .tab {
+    width: 90%; }
+    body .information .inf-posts .tab .btn-default {
+      width: 149px; }
+  body .kandidoz h2 {
+    font-size: 26px;
+    margin: 50px 0 42px 0; }
+  body #modal_form {
+    width: 85%; }
+    body #modal_form h2 {
+      font-size: 25px; }
+    body #modal_form p {
+      font-size: 12px; }
+    body #modal_form .btn-default {
+      width: 73.3%; } }
+
+/*# sourceMappingURL=style_media.css.map */

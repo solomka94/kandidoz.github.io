@@ -1,0 +1,538 @@
+@media screen and (max-width: 1200px) {
+    body {
+        .information {
+            .inf {
+                .tab {
+                    .btn-default {
+                        width: 56%;
+                    }
+                }
+                .btn-default {
+                    width: 43%;
+                }
+            }
+            .sprav {
+                .navbar {
+                    width: 100%;
+                    li {
+                        padding: 24px 0 14px 30px;
+                        &:first-child {
+                            padding: 0px 0 22px 0;
+                            text-align: center;
+                        }
+                        &:last-child {
+                            padding: 24px 0 22px 30px;
+                        }
+                    }
+                    .submenu {
+                        li {
+                            padding: 10px 0 10px 50px;
+                            &:first-child {
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    body {
+        .header-top {
+            height: auto;
+            .header-inf {
+                text-align: center;
+                p {
+                    margin: 15px 0 0 0;
+                }
+                .btn-default {
+                    margin: 10px 0 15px 8px;
+                }
+            }
+        }
+        .header {
+            .nav {
+                display: none;
+            }
+            .hamburger {
+                display: block;
+                background: none;
+                line-height: 72px;
+                padding: 10px 15px 0px 15px;
+                color: #1da8d6;
+                border: 0;
+                font-size: 3.8em;
+                font-weight: normal;
+                cursor: pointer;
+                outline: none;
+                z-index: 10000000000000;
+                float: right;
+                transition: background-color 0.5s ease;
+                &:hover {
+                    color: #f2503b;
+                }
+            }
+            .cross {
+                display: block;
+                position: fixed;
+                background: none;
+                padding: 5px 15px 0px 15px;
+                color: #1da8d6;
+                border: 0;
+                line-height: 72px;
+                font-weight: normal;
+                cursor: pointer;
+                outline: none;
+                z-index: 10000000000000;
+                float: right;
+                font-size: 4.8em;
+                top: 0px;
+                right: 14px;
+                transition: background-color 0.5s ease;
+                &:hover {
+                    color: #f2503b;
+                }
+            }
+        }
+        .menu {
+            ul {
+                font-size: 20px;
+                li {
+                    padding: 30px 0 25px 0;
+                }
+            }
+        }
+        .consultation {
+            .cons-inf {
+                h1 {
+                    text-align: center;
+                }
+            }
+            .cons-form {
+                form {
+                    text-align: center;
+                    .txt {
+                        width: 55%;
+                    }
+                    .txtarea {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+        .consultation-post {
+            .cons-form {
+                form {
+                    text-align: center;
+                    .txt {
+                        width: 70%;
+                    }
+                    .txtarea {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+        .information {
+            .sprav {
+                .navbar {
+                    width: 55%;
+                    margin: 49px auto 0 auto;
+                    li {
+                        .active {
+                            &:before {
+                                left: -18px;
+                            }
+                        }
+                    }
+                }
+                .banner_altravita_240_two {
+                    display: none;
+                }
+            }
+            .inf {
+                h2 {
+                    text-align: center;
+                }
+                .tab {
+                    width: 45%;
+                    margin: 0 auto 47px auto;
+                }
+            }
+            .inf-post {
+                .post-img {
+                    width: 70%;
+                    margin: 0 auto 30px auto;
+                    display: block;
+                }
+                .post-comments {
+                    form.comment-form {
+                        .form-content {
+                            .input-captcha {
+                                width: 85%;
+                                margin: 0 0 50px 0;
+                            }
+                            .input-wrap {
+                                text-align: center;
+                                input {
+                                    width: 70%;
+                                }
+                                img {
+                                    width: 40.2%;
+                                    top: -25px;
+                                    left: 63px;
+                                }
+                                textarea {
+                                    width: 80%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .inf-posts {
+                h1 {
+                    margin: 50px 0 50px 0;
+                    text-align: center;
+                }
+                .crumbs-list {
+                    text-align: center;
+                }
+                .tab {
+                    margin: 0 auto 30px auto;
+                    width: 50%;
+                }
+            }
+        }
+        .kandidoz {
+            h2 {
+                margin: 50px 0 42px 0;
+            }
+        }
+        #modal_form {
+            .txt{
+                width: 100%;
+                float: none;
+                &:first-child {
+                    margin: 0 0 25px 0;
+                    float: none;
+                }
+            }
+            .btn-default {
+                width: 56.3%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    body {
+        .header {
+            .logo {
+                width: 206px;
+                height: 34px;
+                background: url('../images/logo-m.png') no-repeat;
+            }
+        }
+        .consultation {
+            .cons-inf {
+                h1 {
+                    font-size: 30px;
+                    text-align: center;
+                }
+            }
+            .cons-form {
+                h2 {
+                    font-size: 30px;
+                }
+                form {
+                    .txt {
+                        width: 70%;
+                    }
+                    .txtarea {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+        .consultation-post {
+            .cons-form {
+                form {
+                    .btn-default {
+                        width: 55%;
+                    }
+                }
+            }
+        }
+        .information {
+            .sprav {
+                .navbar {
+                    width: 70%;
+                    padding: 20px 0 20px 0;
+                    li {
+                        padding: 15px 0 10px 30px;
+                        h2 {
+                            font-size: 24px;
+                        }
+                        a {
+                            font-size: 12px;
+                        }
+                        &:first-child {
+                            padding: 0px 0 18px 0;
+                        }
+                        &:last-child {
+                            padding: 15px 0 10px 30px;
+                        }
+                        .active {
+                            &:before {
+                                left: -18px;
+                            }
+                        }
+                    }
+                    .submenu {
+                        li {
+                            padding: 10px 0 10px 50px;
+                            &:first-child {
+                                text-align: left;
+                            }
+                            a {
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+            }
+            .inf {
+                h2 {
+                    font-size: 26px;
+                }
+                .tab {
+                    width: 75%;
+                    margin: 0 auto 47px auto;
+                }
+                .btn-default {
+                    width: 70%;
+                }
+            }
+            .inf-post {
+                .post-img {
+                    width: 80%;
+                    margin: 0 auto 30px auto;
+                    display: block;
+                }
+                .table-wrap {
+                    table {
+                        width: 100%;
+                        tr {
+                            th {
+                                padding: 10px 0 10px 20px;
+                                &:first-child {
+                                    padding: 10px 0 10px 15px;
+                                    width: 9.4%;
+                                }
+                            }
+                            td {
+                                padding: 10px 0 10px 15px;
+                                &:first-child {
+                                    padding: 10px 0 10px 15px;
+                                    width: 9.4%;
+                                }
+                            }
+                        }
+                    }
+                }
+                .post-comments {
+                    form.comment-form {
+                        .form-footer {
+                            .button-wrap {
+                                button {
+                                    width: 70%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .inf-posts {
+                h1 {
+                    margin: 50px 0 20px 0;
+                    text-align: center;
+                    font-size: 20px;
+                }
+                .tab {
+                    width: 70%;
+                    .btn-default {
+                        width: 54%;
+                        padding: 10px 40px 10px 40px;
+                        font-size: 12px;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .kandidoz {
+            h2 {
+                font-size: 26px;
+                margin: 50px 0 42px 0;
+            }
+        }
+        #modal_form {
+            width: 75%;
+            h2 {
+                font-size: 30px;
+                margin: 20px 0 20px 0;
+            }
+            .txt {
+                margin: 0 0 15px 0;
+                &:first-child {
+                    margin: 0 0 15px 0;
+                }
+            }
+            textarea {
+                height: 110px;
+                margin: 0 0 15px 0;
+            }
+            p {
+                margin: 0 0 15px 0;
+            }
+            .btn-default {
+                width: 62.3%;
+                margin: 0 auto 25px auto;
+            }
+        }
+    }
+}
+@media screen and (max-width: 400px) {
+    body {
+        .header {
+            .hamburger {
+                padding: 10px 0px 0px 15px;
+                font-size: 2.8em;
+            }
+        }
+        .consultation {
+            .cons-inf {
+                h1 {
+                    font-size: 25px;
+                }
+            }
+            .cons-form {
+                h2 {
+                    font-size: 23px;
+                }
+                form {
+                    .txt {
+                        width: 80%;
+                    }
+                    .txtarea {
+                        width: 100%;
+                    }
+                }
+                .btn-default {
+                    width: 60%;
+                }
+            }
+        }
+        .information {
+            .sprav {
+                .navbar {
+                    width: 90%;
+                    padding: 15px 0 15px 0;
+                    li {
+                        padding: 15px 0 10px 30px;
+                        h2 {
+                            font-size: 24px;
+                        }
+                        a {
+                            font-size: 12px;
+                        }
+                        &:first-child {
+                            padding: 0px 0 18px 0;
+                        }
+                        &:last-child {
+                            padding: 15px 0 10px 30px;
+                        }
+                        .active {
+                            &:before {
+                                left: -18px;
+                            }
+                        }
+                    }
+                    .submenu {
+                        li {
+                            padding: 10px 0 10px 50px;
+                            &:first-child {
+                                text-align: left;
+                            }
+                            a {
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+            }
+            .inf {
+                h2 {
+                    font-size: 26px;
+                }
+                .tab {
+                    width: 75%;
+                    margin: 0 auto 47px auto;
+                    .btn-default {
+                        width: 75%;
+                    }
+                }
+                .btn-default {
+                    width: 92%;
+                }
+            }
+            .crumbs-list {
+                .crumbs-ul {
+                    li {
+                        margin-right: 0;
+                        font-size: 11px;
+                        a {
+                            padding-right: 7px;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+            .inf-post {
+                h1 {
+                    font-size: 30px;
+                    margin: 45px 0 45px 0;
+                    text-align: center;
+                }
+            }
+            .inf-posts {
+                .tab {
+                    width: 90%;
+                    .btn-default {
+                        width: 149px;
+                    }
+                }
+            }
+        }
+        .kandidoz {
+            h2 {
+                font-size: 26px;
+                margin: 50px 0 42px 0;
+            }
+        }
+        #modal_form {
+            width: 85%;
+            h2 {
+                font-size: 25px;
+            }
+            p {
+                font-size: 12px;
+            }
+            .btn-default {
+                width: 73.3%;
+            }
+        }
+    }
+}
